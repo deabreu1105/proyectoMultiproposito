@@ -10,6 +10,8 @@ gulp.task('mover', function(){
   gulp.src('./src/bower_components/bootstrap/dist/js/bootstrap.min.js').pipe(gulp.dest('./dist/js'));
 
   gulp.src('./src/bower_components/jquery/dist/jquery.min.js').pipe(gulp.dest('./dist/js'));
+  
+  gulp.src('./src/js/smoothscrolling.jquery.js').pipe(gulp.dest('./dist/js'));
 
   gulp.src('./src/bower_components/bootstrap/dist/fonts/*.*').pipe(gulp.dest('./dist/fonts'));
 	

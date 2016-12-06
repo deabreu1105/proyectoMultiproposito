@@ -1,7 +1,7 @@
 {
   "name": "ejemplo-interfaces",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# Practica de Interfaces\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,8 +9,21 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.18.1",
+    "browser-sync": "^2.18.2",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2"
-  }
+  },
+  "dependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deabreu1105/proyectoMultiproposito.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deabreu1105/proyectoMultiproposito/issues"
+  },
+  "homepage": "https://github.com/deabreu1105/proyectoMultiproposito#readme"
 }
