@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Altectic</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/lightbox.min.css">
 	<link rel="stylesheet" href="css/style.css">
     <script src="https://use.fontawesome.com/4d632ab703.js"></script>
 
@@ -28,12 +29,13 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right menu">
             <li class="active "><a href="#inicio">Home <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Portafolio</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#equipo">Equipo</a></li>
+            <li><a href="blog.html">Blog</a></li>
             <li><a href="#">Tienda</a></li>
-            <li><a href="#">Carrito</a></li>
-            <li><a href="#">Login</a></li>
+            <li><a class="btn" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Login</a></li>
+            <li><a href="#contacto">Contacto</a></li>
             <form class="navbar-form navbar-right">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Buscar">
@@ -47,12 +49,228 @@
       </div><!-- /.container-fluid -->
     </nav>
   </header>
-   
+   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo</button>
   <section class="parallax">
     <h1></h1>
   </section>
+  
+  
+   <!--Seccion servicios---------------------------------------->
+    <section id="servicios" class="container mt50">
+    <h2>Servicios</h2>
+    <hr class="header-line">
+    <div class="clearfix"></div>
+    <h3 class="text-center">WEB</h3>
+    <div class="row">
+      <article class="col-md-4">
+        <div class="img-fondo" style="background-image:url('http://placehold.it/1980x900/3498db/fff?text=Imagen 1');">
+          <div class="fondo-gris">
+            <!-- ul.list-inline>li*3 -->
+          </div>
+        </div>
+
+        <div class="well">
+          <h4>Diseño Web</h4>
+          <hr class="header-line">
+          <div class="clearfix"></div>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, reprehenderit aperiam ut molestias esse at!</p>
+        </div>
+
+      </article>
+      <article class="col-md-4">
+        <div class="img-fondo" style="background-image:url('http://placehold.it/1980x900/3498db/fff?text=Imagen 1');">
+          <div class="fondo-gris">
+            <!-- ul.list-inline>li*3 -->
+          </div>
+        </div>
+
+        <div class="well">
+          <h4>Diseño Web</h4>
+          <hr class="header-line">
+          <div class="clearfix"></div>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, reprehenderit aperiam ut molestias esse at!</p>
+        </div>
+
+      </article>
+      <article class="col-md-4">
+        <div class="img-fondo" style="background-image:url('http://placehold.it/1980x900/3498db/fff?text=Imagen 1');">
+          <div class="fondo-gris">
+            <!-- ul.list-inline>li*3 -->
+          </div>
+        </div>
+
+        <div class="well">
+          <h4>Diseño Web</h4>
+          <hr class="header-line">
+          <div class="clearfix"></div>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, reprehenderit aperiam ut molestias esse at!</p>
+        </div>
+
+      </article>
+    </div>
+    
+    
+    <h3 class="text-center">Soporte Tecnico</h3>
+    <div class="row">
+      <article class="col-md-4">
+        <div class="img-fondo" style="background-image:url('http://placehold.it/1980x900/3498db/fff?text=Imagen 1');">
+          <div class="fondo-gris">
+            <!-- ul.list-inline>li*3 -->
+          </div>
+        </div>
+
+        <div class="well">
+          <h4>Diseño Web</h4>
+          <hr class="header-line">
+          <div class="clearfix"></div>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, reprehenderit aperiam ut molestias esse at!</p>
+        </div>
+
+      </article>
+      <article class="col-md-4">
+        <div class="img-fondo" style="background-image:url('http://placehold.it/1980x900/3498db/fff?text=Imagen 1');">
+          <div class="fondo-gris">
+            <!-- ul.list-inline>li*3 -->
+          </div>
+        </div>
+
+        <div class="well">
+          <h4>Diseño Web</h4>
+          <hr class="header-line">
+          <div class="clearfix"></div>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, reprehenderit aperiam ut molestias esse at!</p>
+        </div>
+
+      </article>
+      <article class="col-md-4">
+        <div class="img-fondo" style="background-image:url('http://placehold.it/1980x900/3498db/fff?text=Imagen 1');">
+          <div class="fondo-gris">
+            <!-- ul.list-inline>li*3 -->
+          </div>
+        </div>
+
+        <div class="well">
+          <h4>Diseño Web</h4>
+          <hr class="header-line">
+          <div class="clearfix"></div>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, reprehenderit aperiam ut molestias esse at!</p>
+        </div>
+
+      </article>
+    </div>
+    
+    
+    <h3 class="text-center">Redes</h3>
+    <div class="row">
+      <article class="col-md-4">
+        <div class="img-fondo" style="background-image:url('http://placehold.it/1980x900/3498db/fff?text=Imagen 1');">
+          <div class="fondo-gris">
+            <!-- ul.list-inline>li*3 -->
+          </div>
+        </div>
+
+        <div class="well">
+          <h4>Diseño Web</h4>
+          <hr class="header-line">
+          <div class="clearfix"></div>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, reprehenderit aperiam ut molestias esse at!</p>
+        </div>
+
+      </article>
+      <article class="col-md-4">
+        <div class="img-fondo" style="background-image:url('http://placehold.it/1980x900/3498db/fff?text=Imagen 1');">
+          <div class="fondo-gris">
+            <!-- ul.list-inline>li*3 -->
+          </div>
+        </div>
+
+        <div class="well">
+          <h4>Diseño Web</h4>
+          <hr class="header-line">
+          <div class="clearfix"></div>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, reprehenderit aperiam ut molestias esse at!</p>
+        </div>
+
+      </article>
+      <article class="col-md-4">
+        <div class="img-fondo" style="background-image:url('http://placehold.it/1980x900/3498db/fff?text=Imagen 1');">
+          <div class="fondo-gris">
+            <!-- ul.list-inline>li*3 -->
+          </div>
+        </div>
+
+        <div class="well">
+          <h4>Diseño Web</h4>
+          <hr class="header-line">
+          <div class="clearfix"></div>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, reprehenderit aperiam ut molestias esse at!</p>
+        </div>
+
+      </article>
+    </div>
+  </section>
    
-    <section class="container mt50">
+   <!--Seccion Portafolio---------------------------------------->
+   <section class="content-section-a" id="portafolio">
+		<article class="container">
+			<h2>Portafolio</h2>
+            <hr class="header-line">
+            <div class="clearfix"></div>
+					<div class="row">
+					    <div class="col-sm-4">
+					       
+					        <div class="clearfix"></div>
+					         <a href="images/a_look_inside-wallpaper-1280x800.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Imagen 1">
+                                <img src="images/a_look_inside-wallpaper-1280x800.jpg" alt="" class="img-responsive">
+                            </a>
+				        </div>
+				        <div class="col-sm-4">
+					       
+					        <div class="clearfix"></div>
+					         <a href="images/a_look_inside-wallpaper-1280x800.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Imagen 2">
+                                <img src="images/a_look_inside-wallpaper-1280x800.jpg" alt="" class="img-responsive">
+                            </a>
+				        </div>
+				         <div class="col-sm-4">
+					       
+					        <div class="clearfix"></div>
+					         <a href="images/a_look_inside-wallpaper-1280x800.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Imagen 3">
+                                <img src="images/a_look_inside-wallpaper-1280x800.jpg" alt="" class="img-responsive">
+                            </a>
+				        </div>
+				        
+					</div>
+					<div class="row">
+					    <div class="col-sm-4">
+					       
+					        <div class="clearfix"></div>
+					         <a href="images/a_look_inside-wallpaper-1280x800.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Imagen 4">
+                                <img src="images/a_look_inside-wallpaper-1280x800.jpg" alt="" class="img-responsive">
+                            </a>
+				        </div>
+				        <div class="col-sm-4">
+					       
+					        <div class="clearfix"></div>
+					         <a href="images/a_look_inside-wallpaper-1280x800.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Imagen 5">
+                                <img src="images/a_look_inside-wallpaper-1280x800.jpg" alt="" class="img-responsive">
+                            </a>
+				        </div>
+				         <div class="col-sm-4">
+					       
+					        <div class="clearfix"></div>
+					         <a href="images/a_look_inside-wallpaper-1280x800.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Imagen 6">
+                                <img src="images/a_look_inside-wallpaper-1280x800.jpg" alt="" class="img-responsive">
+                            </a>
+				        </div>
+				        
+					</div>
+					
+		</article>
+	</section>
+   
+
+   <!--Seccion Equipo---------------------------------------->
+    <section class="container mt50" id="equipo">
     <h2>Nosotros</h2>
     <hr class="header-line">
     <div class="clearfix"></div>
@@ -158,8 +376,62 @@
       </article>
     </div>
   </section>
+  
+  
+  
+   <!--CONTACT SECTION START-->
+    <section id="contacto" >
+    <h2>Contactanos</h2>
+    <hr class="header-line">
+    <div class="clearfix"></div>
+        <div class="container">
+        <div class="row text-center header animate-in" data-anim-type="fade-in-up">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+    <div class="row">
+      <article class="col-sm-6">
+        <h4 class="text-center">Dejanos tu mensaje</h4>
+        <hr>
+        <form action="envioContacto.php" method="post">
+          
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-addon">
+                <i class="glyphicon glyphicon-user"></i>
+              </div>
+              <input name="nombre" type="text" class="form-control"  placeholder="Escribe tu nombre y apellido" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+           <div class="input-group">
+              <div class="input-group-addon">
+                <i class="glyphicon glyphicon-envelope"></i>
+              </div>
+              <input name="correo" type="email" class="form-control" placeholder="Escribe tu email" required>
+           </div>
+          </div>
+        <div class="form-group">
+          <textarea name="mensaje" id="" rows="7" class="form-control" placeholder="Escribenos tu mensaje"></textarea>
+        </div>
+
+        <button class="btn btn-info" type="submit">Enviar</button>
+
+        </form>
+      </article>
+      
+      <article class="col-sm-6">
+    
+        <img src="http://placehold.it/1980x900/3498db/fff?text=Imagen contacto" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen />
+      </article>
+    </div>
+    <br>        
+    </div>
+  </div>
+</div>
+</section>
    
-   
+   <!--Seccion del Footer------------------------------------>
    <footer class="text-center">
     <div class="footer-above">
         <div class="container">
@@ -208,14 +480,44 @@
     </div>
 </footer>
 
+
 <div class="menu">
 		<a href="#inicio" class="scrollup"></a>	
 </div>
+<!--Modal para login de usuario---------------------------------------------------------------------------->
 
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel">Login de usuario</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="control-label">Usuario:</label>
+            <input type="text" class="form-control" id="recipient-usuario">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="control-label">Clave:</label>
+            <input type="password" class="form-control" id="recipient-Contraseña">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
 	
+				
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/smoothscrolling.jquery.js"></script>
+<script src="js/lightbox.min.js"></script>
 <script>
 		$(document).ready(function(){
 			$(".menu a").smoothscrolling();

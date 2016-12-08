@@ -1,5 +1,7 @@
 .parallax {
-  background-image: url("img/love_code-wallpaper-1280x800.jpg");
+  height: 193vh;
+  width: 100%;
+  background-image: url("http://placehold.it/1980x900/3498db/fff?text=Imagen 1");
   background-position: center center;
   background-size: cover;
   position: relative;
