@@ -6,6 +6,8 @@ var navegador = require('browser-sync');
 
 gulp.task('mover', function(){
   gulp.src('./src/bower_components/bootstrap/dist/css/bootstrap.min.css').pipe(gulp.dest('./dist/css'));
+    
+  gulp.src('./src/bower_components/bootstrap/dist/css/bootstrap-responsive.min.css').pipe(gulp.dest('./dist/css'));
   
   gulp.src('./src/bower_components/lightbox2/dist/css/lightbox.min.css').pipe(gulp.dest('./dist/css'));
 
@@ -18,8 +20,10 @@ gulp.task('mover', function(){
   gulp.src('./src/bower_components/lightbox2/dist/js/lightbox.min.js').pipe(gulp.dest('./dist/js'));
 
   gulp.src('./src/bower_components/bootstrap/dist/fonts/*.*').pipe(gulp.dest('./dist/fonts'));
-	
+    
   gulp.src('./src/bower_components/font-awesome/fonts/*.*').pipe(gulp.dest('./dist/fonts'));
+	
+  gulp.src('./src/bower_components/font-awesome/css/font-awesome.min.css').pipe(gulp.dest('./dist/css'));
 
   gulp.src('./src/images/*.*').pipe(gulp.dest('./dist/images'));
 
